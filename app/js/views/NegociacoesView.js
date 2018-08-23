@@ -29,16 +29,14 @@ System.register(["./View"], function (exports_1, context_1) {
                                 <td>${negociacao.quantidade}</td>
                                 <td>${negociacao.valor}</td>
                                 <td>${negociacao.volume}</td>
-                            <tr>
-                        `;
+                            <tr>`;
                     }).join()}
 
                 </tbody>
 
                 <tfoot>
                 </tfoot>
-            </table>
-        `;
+            </table>`;
                 }
             };
             exports_1("NegociacoesView", NegociacoesView);

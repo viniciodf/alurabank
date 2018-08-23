@@ -22,15 +22,13 @@ export class NegociacoesView extends View<Negociacoes> {
                                 <td>${negociacao.quantidade}</td>
                                 <td>${negociacao.valor}</td>
                                 <td>${negociacao.volume}</td>
-                            <tr>
-                        `
+                            <tr>`
                     }).join()}
 
                 </tbody>
 
                 <tfoot>
                 </tfoot>
-            </table>
-        `;
+            </table>`;
     }
 }
