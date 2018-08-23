@@ -5,7 +5,7 @@ export class NegociacaoService {
 
     obterNegociacoes(handler: HandlerFunction): Promise<Negociacao[]> {
 
-        return fetch('http://localhost:8080/dadoss')
+        return fetch('http://localhost:8080/dados')
             .then(res => handler(res))
             .then(res => res.json())
             .then((dados: NegociacaoParcial[]) => 
